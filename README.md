@@ -1,4 +1,4 @@
-# ⚙️ GitHub Actions Testbed
+## ⚙️ GitHub Actions Testbed
 
 This repository was created as part of a technical assignment for **TechStax** to demonstrate proficiency with **GitHub Actions**, webhook simulation, and CI/CD workflows. It includes sample trigger files and IDE configuration used during development and testing.
 
@@ -33,8 +33,9 @@ git push origin feature/update-readme
 
 # Open a pull request → triggers 'pull_request' event
 # Merge into main → triggers 'push' event
+```
 
-Used `pr_test.txt` and `webhook-test.txt` to simulate different triggers
+Used `pr_test.txt` and `webhook-test.txt` to simulate different triggers.
 
 ---
 
@@ -48,4 +49,4 @@ Used `pr_test.txt` and `webhook-test.txt` to simulate different triggers
 
 ## 🙌 Credits
 
-Developed by Dino as part of a technical interview assignment for **TechStax**, showcasing automation workflows and GitHub integration.
+Developed by **Dino** as part of a technical interview assignment for **TechStax**, showcasing automation workflows and GitHub integration.
