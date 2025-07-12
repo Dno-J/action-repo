@@ -16,11 +16,25 @@ action-repo/
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Use (Example Git Workflow)
 
-1. **Push changes** or open a **pull request**  
-2. GitHub Actions will trigger based on `.github/workflows/main.yml`  
-3. Use `pr_test.txt` and `webhook-test.txt` to simulate different triggers
+This repo simulates GitHub Actions triggers using standard Git operations:
+
+```bash
+# Create a feature branch
+git checkout -b feature/update-readme
+
+# Commit changes
+git add README.md
+git commit -m "docs: update README with demo walkthrough instructions"
+
+# Push to remote
+git push origin feature/update-readme
+
+# Open a pull request → triggers 'pull_request' event
+# Merge into main → triggers 'push' event
+
+Used `pr_test.txt` and `webhook-test.txt` to simulate different triggers
 
 ---
 
